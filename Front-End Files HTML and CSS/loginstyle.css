@@ -17,7 +17,10 @@ body {
     width: 350px;
     text-align: center;
   }
-  
+  img{
+    width: 100vh;
+    height: 50vh;
+  }
   h2 {
     margin-bottom: 25px;
     font-weight: bold;

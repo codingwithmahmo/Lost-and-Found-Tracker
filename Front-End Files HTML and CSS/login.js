@@ -11,6 +11,7 @@ document.getElementById('loginForm').addEventListener('submit', function (e) {
       // Redirect to dashboard or home page
       // window.location.href = "dashboard.html";
     } else {
+      document.getElementById('loginResponse').style.color= "black";
       document.getElementById('loginResponse').textContent = "Invalid credentials.";
     }
   });
